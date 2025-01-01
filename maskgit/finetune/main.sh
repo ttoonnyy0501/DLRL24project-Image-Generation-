@@ -1,5 +1,4 @@
 #!/bin/bash
-# # ------------------------example--------------------------
 
 # reg data:
 CUDA_VISIBLE_DEVICES=0 python scripts/stable_txt2img.py --ddim_eta 0.0 --n_samples 10 --n_iter 5 --scale 10.0 --ddim_steps 50  --ckpt stable-diffusion-v-1-4/sd-v1-4-full-ema.ckpt --prompt "photo of a dog" --seed 77 --outdir reg_data/dog --unconditional_prompt "monochrome, lowres, bad anatomy, worst quality, low quality"
