@@ -29,6 +29,6 @@ conda env create -f maskgit/finetune/environment.yaml
 conda activate ldm
 ```
 
-2. 然后在该文件中下载好预训练模型的参数。其中Stable Diffusion v1.4的参数可在https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/tree/main中下载。
+2. 然后在该文件中下载好预训练模型的参数。其中Stable Diffusion v1.4的参数可在https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/tree/main 中下载。
 
 3.最后依次运行```maskgit/finetune/main.sh``` 的命令即可对模型实现微调。
